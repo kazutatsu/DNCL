@@ -1,31 +1,21 @@
 #include <bits/stdc++.h>
+#include "print.hpp"
+#include "logical.hpp"
+#include "if.hpp"
+#include "while.hpp"
+#include "for.hpp"
 using namespace std;
 
 #define 関数 int
 #define 整数 int
-#define する cout <<
-#define と <<
-#define を表示 << endl;
+#define は {
 #define ＜－ =
 #define を1増やす ++;
 #define を1減らす --;
-#define かつ &&
-#define または ||
-#define でない !
-#define は {
-#define もし if(
-#define ならば ){
-#define を実行し，そうでなければ }else{
-#define を実行し，そうでなくもし }else if(
-#define を実行する }
 #define 返す return
-#define ＝ ==
-#define この while(
-#define の間 ){
-#define を繰り返す }
-#define 繰り返し {
-#define を }while(
-#define になるまで実行する )
+#define を ;
+
+
 
 関数 階乗(整数 num)は
     もし num ＝ 0 ならば
@@ -46,5 +36,8 @@ int main() {
       y ＜－ y-1;
     を実行する
     cout << "(" << x << "," << y << ")" << endl;
+    変数 整数 i を初期値 0 から i < 10 までの間 i を1ずつ増やしながら
+        する i を表示
+    を繰り返す
     return 0;
 }
