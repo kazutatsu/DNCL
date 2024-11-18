@@ -7,16 +7,18 @@
 #include "defined.hpp"
 using namespace std;
 
-#define 関数 int
 #define 整数 int
-#define は {
 #define ＜－ =
+
 #define を1増やす ++;
 #define を1減らす --;
+#define 整数を返す関数 int
+#define 表示する関数 void
+#define は {
 #define 返す return
 #define を ;
 
-関数 階乗(整数 num)は
+整数を返す関数 階乗(整数 num)は
     もし num ＝ 0 ならば
         返す 1;
     を実行し，そうでなければ
@@ -24,7 +26,13 @@ using namespace std;
     を実行する
 を実行する
 
-
+表示する関数 和を表示する(整数 n)は
+  整数 wa ＜－ 0;
+  変数の 整数 i を初期値 0 から i < n までの間 i を1ずつ増やしながら
+    wa ＜－ wa + i;
+  を繰り返す
+  する wa を表示
+を実行する  
 
 
 int main() {
