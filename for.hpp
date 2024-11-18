@@ -1,5 +1,5 @@
 // 順次繰り返し分
-#define 変数 for(
+#define 変数の for(
 #define を初期値 =
 #define から ; 
 #define までの間 ;
