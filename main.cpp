@@ -5,18 +5,9 @@
 #include "while.hpp"
 #include "for.hpp"
 #include "defined.hpp"
+#include "definition.hpp"
+#include "other.hpp"
 using namespace std;
-
-#define 整数 int
-#define ＜－ =
-
-#define を1増やす ++;
-#define を1減らす --;
-#define 整数を返す関数 int
-#define 表示する関数 void
-#define は {
-#define 返す return
-#define を ;
 
 整数を返す関数 階乗(整数 num)は
     もし num ＝ 0 ならば
@@ -27,9 +18,9 @@ using namespace std;
 を実行する
 
 表示する関数 和を表示する(整数 n)は
-  整数 wa ＜－ 0;
+  整数 wa = 0;
   変数の 整数 i を初期値 0 から i < n までの間 i を1ずつ増やしながら
-    wa ＜－ wa + i;
+    wa = wa + i;
   を繰り返す
   する wa を表示
 を実行する  
@@ -37,13 +28,13 @@ using namespace std;
 
 int main() {
     する  階乗(5) を表示
-    整数 x ＜－ 5, y ＜－ 10;
+    整数 x = 5, y = 10;
     する"(" と x と "," と y と ")" を表示
     cout << でない(1 < 2) << endl;
     もし x ＝ 3 ならば
-      x ＜－ x+1;
+      x = x+1;
     を実行し，そうでなくもし y > 2 ならば
-      y ＜－ y-1;
+      y = y-1;
     を実行する
     する "(" と x と "," と y と ")" を表示
     変数の 整数 i を初期値 0 から i < 10 までの間 i を1ずつ増やしながら
