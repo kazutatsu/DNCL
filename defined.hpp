@@ -1,4 +1,13 @@
+// 定義済みの関数
 #include <random>
+using namespace std;
+
+int 外部からの入力(){
+  int n;
+  cin >> n;
+  return n;
+}
+
 int 乱数(int min, int max){
   int dis = max - min;
   int r;
@@ -27,3 +36,4 @@ void 二進で表示する(int n){
   }
   cout << s << endl;
 }
+
