@@ -1,22 +1,15 @@
 #include <bits/stdc++.h>
-#include "print.hpp"
-#include "logical.hpp"
-#include "if.hpp"
-#include "while.hpp"
-#include "for.hpp"
-#include "defined.hpp"
-#include "definition.hpp"
-#include "other.hpp"
+#include "dncl.hpp"
 using namespace std;
 
-関数 main()は
+関数 main()を
   配列 Data = {3,18,29,33,48,52,63,77,89,97};
   整数 kazu = Data.の要素数
   する "0～99の数字を入力してください" を表示
   整数 atai = 外部からの入力();
   整数 hidari = 0, migi = kazu - 1;
   整数 owari = 0;
-  この hidari <= migi and owari == 0 の間
+  この hidari <= migi かつ owari == 0 の間
     整数 aida = (hidari+migi)/2;
     もし Data[aida] == atai ならば
       する atai と "は" と aida と "番目にありました" を表示
